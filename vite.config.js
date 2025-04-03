@@ -10,7 +10,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: "/vue-vite-practice/",
+  base: process.env.NODE_ENV === 'production'
+    ? '/vue-vite-practice/'
+    : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
