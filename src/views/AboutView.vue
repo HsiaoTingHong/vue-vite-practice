@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>測試GitHub Actions-1</h1>
+    <h1>測試GitHub Actions-2</h1>
   </div>
 </template>
 
