@@ -1,0 +1,1 @@
+import{_ as t,c as o,a as s,o as c}from"./index-DM_2F3nQ.js";const n={},a={class:"about"};function r(_,e){return c(),o("div",a,e[0]||(e[0]=[s("h1",null,"測試GitHub Actions-4",-1)]))}const l=t(n,[["render",r]]);export{l as default};
