@@ -1,4 +1,4 @@
-# vue-vite-practice2
+# vue-vite-practice
 
 This template should help get you started developing with Vue 3 in Vite.
 

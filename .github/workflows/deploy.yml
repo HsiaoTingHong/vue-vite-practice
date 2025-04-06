@@ -39,7 +39,7 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ✅ 部署成功！
+            ✅ Deploy success！
             專案: ${{ github.repository }}
             提交者: ${{ github.actor }}
             提交訊息: ${{ github.event.head_commit.message }}
@@ -52,7 +52,7 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ❌ 部署失敗！
+            ❌ Deploy failure！
             專案: ${{ github.repository }}
             提交者: ${{ github.actor }}
             提交訊息: ${{ github.event.head_commit.message }}
